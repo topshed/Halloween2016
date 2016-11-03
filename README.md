@@ -12,12 +12,13 @@ The add a PIR sensor to detected nearby movement and play a spooky sound through
 
 ![alt tag](https://raw.githubusercontent.com/topshed/Halloween2016/master/lit1.jpeg) 
 
-In order to use two of the LED matrices, you need to bridge (ideally with solder)  a jumper on one of them so that it has a different I2C address. The jumpers are on the back of the LED matrix backpack - I bridged the middle one, which gives an address of 0x72 (default is 0x70). If you use a differnt address, you'll need to change it in the code. 
+In order to use two of the LED matrices, you need to bridge (ideally with solder)  a jumper on one of them so that it has a different I2C address. The jumpers are on the back of the LED matrix backpack - I bridged the middle one, which gives an address of 0x72 (default is 0x70). If you use a different address, you'll need to change it in the code. 
 
 Here is the circuit:
 
 ![alt tag](https://raw.githubusercontent.com/topshed/Halloween2016/master/halloween2016_bb.jpg) 
 
-which can easily all fit inside a reasonably sized pumpkin.
+which can easily all fit inside a reasonably sized pumpkin. I used a Raspberry Pi A+ but any Pi will work, even an old (original) model B. 
 
 ![alt tag](https://raw.githubusercontent.com/topshed/Halloween2016/master/pumpkin2.jpeg) 
+
